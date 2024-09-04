@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 30c98166bf75e94419aaaed351037dee
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Puppet_Spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_hat0_1_Leaf
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger1_0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger1_1
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger0_0
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger0_1
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger0_2
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger2_0
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger2_1
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger3_0
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_L_Finger3_1
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger1_0
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger1_1
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger0_0
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger0_1
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger0_2
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger2_0
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger2_1
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger3_0
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Puppet_R_Finger3_1
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Walking (4)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quasimodo
+      parentName: Walking (4)(Clone)
+      position: {x: 0.000492823, y: -0.00015366107, z: -0.0006300667}
+      rotation: {x: 0.06178053, y: 0.051234357, z: 0.053331863, w: 0.9953461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Puppet
+      parentName: Quasimodo
+      position: {x: -0, y: 0.0035186058, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Puppet_Spine
+      parentName: Puppet
+      position: {x: 0.0000005507009, y: 0.0000010307919, z: 0.0000070238275}
+      rotation: {x: 0.4997636, y: -0.5002364, z: -0.50016165, w: -0.49983817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Puppet_Pelvis
+      parentName: Puppet_Spine
+      position: {x: 0.0000036453978, y: 0.0000000085525995, z: 4.8240877e-12}
+      rotation: {x: 0.028905362, y: -0.000010743737, z: -0.0003979504, w: 0.9995821}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Puppet_L_Thigh
+      parentName: Puppet_Pelvis
+      position: {x: -4.003422e-12, y: 0.00000069861494, z: 0.00001203877}
+      rotation: {x: -0.010259966, y: 0.9995341, z: -0.028160466, w: -0.0057809213}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Puppet_L_Calf
+      parentName: Puppet_L_Thigh
+      position: {x: -0.000014255703, y: -2.1664994e-11, z: 2.2195282e-12}
+      rotation: {x: -0.00000068545336, y: -0, z: 0.15300009, w: 0.9882262}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: Puppet_L_Foot
+      parentName: Puppet_L_Calf
+      position: {x: -0.000015191127, y: -2.3698564e-11, z: 8.304018e-12}
+      rotation: {x: -0.00003057123, y: -0.005542544, z: -0.1426889, w: 0.98975205}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999976}
+    - name: Puppet_L_Toe0
+      parentName: Puppet_L_Foot
+      position: {x: -0.0000065503496, y: 0.000008223354, z: -1.2045079e-11}
+      rotation: {x: 0.00000042362444, y: 0.000000593951, z: -0.70710677, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Puppet_R_Thigh
+      parentName: Puppet_Pelvis
+      position: {x: 1.0231796e-12, y: -0.0000006986118, z: -0.000012038767}
+      rotation: {x: -0.010577625, y: 0.9994867, z: -0.029793978, w: 0.005178314}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Puppet_R_Calf
+      parentName: Puppet_R_Thigh
+      position: {x: -0.000014255698, y: -2.2323272e-11, z: 3.186327e-13}
+      rotation: {x: 0.00000081956387, y: -0.00000013411045, z: 0.15300007, w: 0.98822623}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: Puppet_R_Foot
+      parentName: Puppet_R_Calf
+      position: {x: -0.000015191129, y: -2.0946137e-11, z: 1.1396341e-11}
+      rotation: {x: 0.000030414316, y: 0.0055424278, z: -0.14268896, w: 0.9897521}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Puppet_R_Toe0
+      parentName: Puppet_R_Foot
+      position: {x: -0.0000065503496, y: 0.000008223351, z: -1.4373381e-11}
+      rotation: {x: 0.00000047246607, y: 0.0000006684567, z: -0.7071068, w: 0.70710677}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: Puppet_Spine1
+      parentName: Puppet_Spine
+      position: {x: -0.000014381642, y: 0.000000011431455, z: 8.467878e-13}
+      rotation: {x: -0.000000014901159, y: 0.00001618266, z: 0.11010195, w: 0.9939203}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000007}
+    - name: Puppet_R_Clavicle
+      parentName: Puppet_Spine1
+      position: {x: -0.000011582534, y: 2.7516922e-10, z: -0.000013383288}
+      rotation: {x: -0.57705104, y: -0.0002902299, z: -0.81670797, w: 0.00028246638}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.99999976}
+    - name: Puppet_R_UpperArm
+      parentName: Puppet_R_Clavicle
+      position: {x: -0.000012810109, y: -3.6630445e-11, z: -9.068392e-13}
+      rotation: {x: -0.020183071, y: -0.14244771, z: 0.0036057942, w: 0.98959005}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Puppet_R_Forearm
+      parentName: Puppet_R_UpperArm
+      position: {x: -0.000020645562, y: -4.873564e-11, z: -7.760512e-12}
+      rotation: {x: 0.0035459725, y: -0.02169914, z: 0.027143868, w: 0.99938977}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000001}
+    - name: Puppet_R_Hand
+      parentName: Puppet_R_Forearm
+      position: {x: -0.000022893058, y: -5.6866213e-11, z: 1.7336313e-11}
+      rotation: {x: -0.7064988, y: 0.021483218, z: 0.02150011, w: -0.70706135}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Puppet_R_Finger0_0
+      parentName: Puppet_R_Hand
+      position: {x: -0.0000013546103, y: 0.00000031150492, z: 0.0000012538616}
+      rotation: {x: -0.5575304, y: 0.32696852, z: 0.06027393, w: 0.76066977}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: Puppet_R_Finger0_1
+      parentName: Puppet_R_Finger0_0
+      position: {x: -0.000003905029, y: -2.122863e-11, z: 3.827642e-11}
+      rotation: {x: 0.0005014537, y: -0.014063816, z: 0.03896141, w: 0.9991417}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999999}
+    - name: Puppet_R_Finger0_2
+      parentName: Puppet_R_Finger0_1
+      position: {x: -0.0000037309599, y: 1.5712076e-11, z: -3.624959e-11}
+      rotation: {x: 0.000000092608396, y: -0.000000118277974, z: -0.024968252, w: 0.99968827}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999997}
+    - name: Puppet_R_Finger1_0
+      parentName: Puppet_R_Hand
+      position: {x: -0.000010835743, y: 0.00000031103303, z: 0.0000026107416}
+      rotation: {x: 0.00007915494, y: 0.29527423, z: -0.07449458, w: 0.9525039}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: Puppet_R_Finger1_1
+      parentName: Puppet_R_Finger1_0
+      position: {x: -0.0000040051523, y: -3.3736552e-11, z: -5.9620527e-13}
+      rotation: {x: -0.0000002083834, y: 0.00000008940696, z: -0.028389461, w: 0.99959695}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: Puppet_R_Finger3_0
+      parentName: Puppet_R_Hand
+      position: {x: -0.000010949888, y: 0.00000023654795, z: -0.0000011939522}
+      rotation: {x: 0.015179656, y: 0.2966717, z: -0.09020593, w: 0.9505884}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: Puppet_R_Finger3_1
+      parentName: Puppet_R_Finger3_0
+      position: {x: -0.000003992599, y: 3.1277658e-12, z: -2.4734454e-13}
+      rotation: {x: 0.00000003981403, y: -0.000000089406946, z: 0.02338582, w: 0.99972653}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Puppet_R_Finger2_0
+      parentName: Puppet_R_Hand
+      position: {x: -0.00001110722, y: 0.00000012515918, z: 0.0000009777945}
+      rotation: {x: 0.008808045, y: 0.29414806, z: -0.084613055, w: 0.9519664}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Puppet_R_Finger2_1
+      parentName: Puppet_R_Finger2_0
+      position: {x: -0.000004297989, y: -5.396918e-12, z: 6.0309977e-12}
+      rotation: {x: -0.00000014959365, y: -0.00000020116563, z: -0.025161486, w: 0.99968344}
+      scale: {x: 1.0000005, y: 1, z: 0.9999998}
+    - name: Puppet_L_Clavicle
+      parentName: Puppet_Spine1
+      position: {x: -0.00001158254, y: 0.00000000419342, z: 0.000013383282}
+      rotation: {x: -0.57705086, y: -0.00016929486, z: 0.8167081, w: -0.00036795528}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Puppet_L_UpperArm
+      parentName: Puppet_L_Clavicle
+      position: {x: -0.000012810115, y: -1.5420083e-13, z: 2.0531558e-13}
+      rotation: {x: 0.020183427, y: 0.14244829, z: 0.0036051904, w: 0.98958987}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: Puppet_L_Forearm
+      parentName: Puppet_L_UpperArm
+      position: {x: -0.00002064557, y: -6.7344186e-12, z: 1.8630692e-12}
+      rotation: {x: -0.0035460314, y: 0.021698387, z: 0.02714377, w: 0.99938977}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999998}
+    - name: Puppet_L_Hand
+      parentName: Puppet_L_Forearm
+      position: {x: -0.000022893038, y: -9.369142e-12, z: 2.2459059e-11}
+      rotation: {x: 0.70649874, y: -0.021482946, z: 0.021500148, w: -0.7070614}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000001}
+    - name: Puppet_L_Finger0_0
+      parentName: Puppet_L_Hand
+      position: {x: -0.0000013546197, y: 0.00000031151453, z: -0.0000012538508}
+      rotation: {x: -0.55753344, y: 0.32696998, z: -0.060267128, w: -0.7606675}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Puppet_L_Finger0_1
+      parentName: Puppet_L_Finger0_0
+      position: {x: -0.000003905035, y: -3.4854571e-12, z: 2.0619858e-11}
+      rotation: {x: -0.0005016622, y: 0.014064825, z: 0.038961865, w: 0.9991416}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Puppet_L_Finger0_2
+      parentName: Puppet_L_Finger0_1
+      position: {x: -0.0000037309535, y: 6.3441383e-12, z: -5.9270275e-12}
+      rotation: {x: -0.000000040221494, y: -0.000000041909516, z: -0.02496822, w: 0.99968827}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Puppet_L_Finger1_0
+      parentName: Puppet_L_Hand
+      position: {x: -0.000010835751, y: 0.00000031100083, z: -0.0000026107018}
+      rotation: {x: -0.00008073449, y: -0.29527, z: -0.07449559, w: 0.9525052}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: Puppet_L_Finger1_1
+      parentName: Puppet_L_Finger1_0
+      position: {x: -0.000004005143, y: 1.147416e-11, z: 3.2563698e-12}
+      rotation: {x: 0.00000021373853, y: -0.00000017881393, z: -0.028389378, w: 0.99959695}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.9999995}
+    - name: Puppet_L_Finger3_0
+      parentName: Puppet_L_Hand
+      position: {x: -0.0000109499415, y: 0.0000002365621, z: 0.0000011939904}
+      rotation: {x: -0.015177812, y: -0.29666746, z: -0.09021144, w: 0.9505893}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000006}
+    - name: Puppet_L_Finger3_1
+      parentName: Puppet_L_Finger3_0
+      position: {x: -0.000003992535, y: -9.332907e-12, z: -2.0228866e-12}
+      rotation: {x: -0.00000020116563, y: -0.000000007450579, z: 0.023385486, w: 0.9997266}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000006}
+    - name: Puppet_L_Finger2_0
+      parentName: Puppet_L_Hand
+      position: {x: -0.000011107254, y: 0.00000012514487, z: -0.0000009777643}
+      rotation: {x: -0.008808224, y: -0.2941452, z: -0.08461635, w: 0.95196694}
+      scale: {x: 1.0000007, y: 1, z: 1.0000011}
+    - name: Puppet_L_Finger2_1
+      parentName: Puppet_L_Finger2_0
+      position: {x: -0.000004297959, y: 1.0064295e-11, z: 9.3733e-12}
+      rotation: {x: -0.00000040524174, y: -0.000000007450581, z: -0.02516152, w: 0.99968344}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999934}
+    - name: Puppet_Head
+      parentName: Puppet_Spine1
+      position: {x: -0.000012979582, y: 0.00001114572, z: -0.0000000016572873}
+      rotation: {x: 0.00007401407, y: 0.000013828278, z: 0.18944314, w: -0.98189175}
+      scale: {x: 0.9999996, y: 0.99999934, z: 0.99999934}
+    - name: Puppet_hat0_1_Leaf
+      parentName: Puppet_Head
+      position: {x: -0.000016882192, y: -0.000004993976, z: 7.907575e-12}
+      rotation: {x: -0.0000002682209, y: 0.0000006109476, z: -0.27887145, w: -0.9603285}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Puppet_hat0_2_Leaf
+      parentName: Puppet_hat0_1_Leaf
+      position: {x: -0.000021186263, y: -0.000000016901897, z: 2.8122686e-13}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Quasimodo_2
+      parentName: Quasimodo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Quasimodo_0
+      parentName: Quasimodo_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skin
+      parentName: Quasimodo_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quasimodo_Face_Base
+      parentName: Quasimodo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Quasimodo_Face_Base_0
+      parentName: Quasimodo_Face_Base
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Poses__Quasimodo_Face_Base_0
+      parentName: Quasimodo_Face_Base_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quasimodo_Scared_0
+      parentName: Poses__Quasimodo_Face_Base_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quasimodo_Happy_0
+      parentName: Poses__Quasimodo_Face_Base_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quasimodo_Angry_0
+      parentName: Poses__Quasimodo_Face_Base_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skin_2
+      parentName: Quasimodo_Face_Base_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

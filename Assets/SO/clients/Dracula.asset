@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675af49447e09d7499d2e72cf01bcfec, type: 3}
+  m_Name: Dracula
+  m_EditorClassIdentifier: 
+  FaveredFood:
+  - {fileID: 11400000, guid: c3a2680f107666b4e917fe7a36e5275a, type: 2}
+  - {fileID: 11400000, guid: 821cfd6d93530754ebc7474e4aa40212, type: 2}
+  name: dracula
+  prefab: {fileID: 5263901951589117078, guid: 59baf8323cd9bbe4eae8097f016f7edd, type: 3}
