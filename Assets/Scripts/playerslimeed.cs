@@ -10,15 +10,10 @@ public class playerslimeed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        slimedbody.SetActive(false);
-        mainbody.SetActive(true);
+        // mainbody.SetActive(true);
+        // slimedbody.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void slime(){
         slimedbody.SetActive(true);
         mainbody.SetActive(false);

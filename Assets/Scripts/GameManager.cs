@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; set; }
+
     public event Action addtime;
     public event Action takefromtime;
     [SerializeField] float reaored = 12;
@@ -15,27 +17,31 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gamepad;
     [SerializeField] AudioClip timerunnigout;
     [SerializeField] GameObject gamemenu;
-    private AudioSource audioSource;
-    public static GameManager Instance { get; set; }
-    enum State
+    public AudioSource audioSource;
+    
+    public enum State
     {
         waitingtostart,
         countdowntostart,
         gameplaying,
         gameover,
     }
-    State state;
+    public State state;
+    [SerializeField] State PrevState;
+
     public float waitingtostarttimer = 1;
     public float countdowntostarttimer = 3;
     public float gameplayingtimer;
-    private bool hasPlayedAudio = false; // Flag to ensure the audio plays only once
+    public bool hasPlayedAudio = false; // Flag to ensure the audio plays only once
 
     void Awake()
     {
+        
         state = State.waitingtostart;
     }
     void Start()
     {
+        Instance = this;
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -51,7 +57,10 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        
+        if(PrevState != state)
+        {
+            PrevState = state;
+        }
         switch (state)
         {
             case State.waitingtostart:
@@ -87,8 +96,15 @@ public class GameManager : MonoBehaviour
                 }
                 else if (gameplayingtimer < 0f)
                 {
+                    audioSource.Stop();
                     timerGUI.SetActive(false);
                     state = State.gameover;
+                }
+                else if(gameplayingtimer > 10)
+                {
+                    hasPlayedAudio = false;
+                    gameplaytimeUI.GetComponent<Animator>().SetTrigger("back");
+                    audioSource.Stop();
                 }
 
                 break;
@@ -99,7 +115,6 @@ public class GameManager : MonoBehaviour
                 gamepad.SetActive(false);
                 gamemenu.SetActive(false);
                 Time.timeScale = 0f;
-                
                 break;
         }
         
@@ -115,6 +130,12 @@ public class GameManager : MonoBehaviour
     void taketime()
     {
         gameplayingtimer -= 10;
+    }
+    public void addtimereward()
+    {
+        gameplayingtimer += 30;
+        Time.timeScale = 0;
+        state = PrevState;
     }
     public void TriggerAddTime()
     {
