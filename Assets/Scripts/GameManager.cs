@@ -133,7 +133,9 @@ public class GameManager : MonoBehaviour
     }
     public void addtimereward()
     {
-        gameplayingtimer += 30;
+        gameplaytimeUI.GetComponent<Animator>().SetTrigger("back");
+        gameplayingtimer += 21;
+        gamemenu.SetActive(true);
         Time.timeScale = 0;
         state = PrevState;
     }

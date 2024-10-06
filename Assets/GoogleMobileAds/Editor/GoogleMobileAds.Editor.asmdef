@@ -1,12 +1,10 @@
 {
     "name": "GoogleMobileAds.Editor",
-    "rootNamespace": "",
     "references": [
         "GoogleMobileAds",
         "GoogleMobileAds.Core"
     ],
     "includePlatforms": [
-        "Android",
         "Editor"
     ],
     "excludePlatforms": [],

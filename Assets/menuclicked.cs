@@ -13,6 +13,7 @@ public class menuclicked : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.SetActive(true);
         menuUI.SetActive(false);
         menu = gameObject.GetComponent<Button>();
         menu.onClick.AddListener(showmenu);

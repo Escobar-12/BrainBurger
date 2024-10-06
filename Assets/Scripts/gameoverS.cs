@@ -11,38 +11,25 @@ public class gameoverS : MonoBehaviour
     [SerializeField] Button Reward;
 
     [SerializeField] GameObject menu;
-    
+    float time = 0;
 
     void Awake()
     {
-        start.onClick.AddListener(startgame);
-        quit.onClick.AddListener(quitgame);
-        Reward.onClick.AddListener(reward);
-    }
-    
-    void startgame()
-    {
-        Invoke("Restart",0.1f);
-    }
-    void quitgame()
-    {
-        Invoke("Exit",.1f);
-    }
-    void reward()
-    {
-        Invoke("Continue",.1f);
+        start.onClick.AddListener(Restart);
+        quit.onClick.AddListener(Exit);
+        Reward.onClick.AddListener(Continue);
     }
     void Continue()
     {
-        menu.SetActive(false);
         Time.timeScale = 1;
-        GameManager.Instance.state = GameManager.State.gameplaying;
+        menu.SetActive(false);
         GameManager.Instance.addtimereward();
+        GameManager.Instance.state = GameManager.State.gameplaying;
     }
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     void Exit()
