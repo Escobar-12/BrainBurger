@@ -1,11 +1,12 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; set; }
-
+    [SerializeField] Button[] RewardButtons = new Button[2];
     public event Action addtime;
     public event Action takefromtime;
     [SerializeField] float reaored = 12;
@@ -84,6 +85,7 @@ public class GameManager : MonoBehaviour
 
             case State.gameplaying:
                 timerGUI.SetActive(true);
+                gamepad.SetActive(Application.isMobilePlatform);
                 gameplaytimeUI.text = ((int)gameplayingtimer).ToString();
                 gameplayingtimer -= Time.deltaTime;
 
@@ -138,6 +140,9 @@ public class GameManager : MonoBehaviour
         gamemenu.SetActive(true);
         Time.timeScale = 0;
         state = PrevState;
+        RewardButtons[0].interactable = false;
+        RewardButtons[1].interactable = false;
+
     }
     public void TriggerAddTime()
     {

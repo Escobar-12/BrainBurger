@@ -35,13 +35,13 @@ public class clientability : MonoBehaviour
                 timer.SetTrigger("dracula");
                 timer.SetTrigger("taketime");
                 break;
-            case "blobby":
-                movment.Instance.fuckupwalking();
-                player.slime();
-                break;
             case "murray":
                 movment.Instance.freezz();
                 player.stone();
+                break;
+            case "blobby":
+                movment.Instance.fuckupwalking();
+                player.slime();
                 break;
             case "frank":
             case "eunice":
